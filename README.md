@@ -19,11 +19,13 @@ Chocolatey takes care of your environment variables and all the nuances when it 
 
 This step may take a couple of minutes.
 
-2. Run CMD prompt as administrator (system/32) once the installation is complete. Run the following command to install gawk (GNU awk). 
+2. Run CMD prompt as administrator (system/32) once the installation is complete. Run the following command to install gawk ([GNU awk](https://chocolatey.org/packages/gawk)). 
 
 ```cmd
 choco install gawk
 ```
+This step may take a few moments.
+
 3. Navigate(```cd```) to the necessary directory where you have this repository cloned/unzipped.
 
 ## Testing 
@@ -58,13 +60,13 @@ No. of packets dropped=6
 ```
 If you are writing into a nam file,and the namtrace-all command has been levied in the tcl file, then you will also generate the nam file. 
 
-3. In the window that pops up, select the tcl file by clicking on the ellipsis (```...```). Click on load.
+3. In the NS-Wireless window that pops up, select the tcl file by clicking on the ellipsis (```...```). Click on load.
 4. In the bottom tab navigation, click on Simulation. 
 5. Select the tr file by clicking on the ellipsis (```...```). Click on load. 
 
 After some buffering, the animation should start playing. For adavnced features of NSWireless, visit [https://www.scribd.com/document/216718904/Ns2-Visual-Trace-Analyzer-Manual](https://www.scribd.com/document/216718904/Ns2-Visual-Trace-Analyzer-Manual)
 
-Graphs showing network health and activites can also be plotted using this software.
+Graphs showing network health and other activites can also be plotted using this software.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
